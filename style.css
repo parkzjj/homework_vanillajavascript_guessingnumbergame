@@ -1,0 +1,21 @@
+.h2arrange {
+    display: flex;
+    align-items: center;
+}
+
+.h2arrange input {
+    margin-left: 10px;
+}
+
+.h3arrange {
+    display: flex;
+    align-items: center;
+}
+
+.h3arrange input {
+    margin-left: 10px;
+}
+
+.h3arrange button {
+    margin-left: 10px;
+}
