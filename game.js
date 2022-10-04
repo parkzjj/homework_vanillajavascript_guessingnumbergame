@@ -18,7 +18,9 @@ function handleNumber(event) {
 }
 
 function handleAnswer() {
-    if (randomNumber === parseInt(selectInput.value)) {
+    if (selectInput.value === "") {
+        alert("Please set your range");
+    } else if (randomNumber === parseInt(selectInput.value)) {
     h4.innerText = `You chose:${selectInput.value}, the machine chose:${randomNumber}. You won!`
     } else {
     h4.innerText = `You chose:${selectInput.value}, the machine chose:${randomNumber}. You lose!`
